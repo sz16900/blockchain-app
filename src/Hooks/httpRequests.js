@@ -17,6 +17,7 @@ export function useAxiosGet(url) {
     axios
       .get(url)
       .then((response) => {
+        console.log(response);
         setRequest({
           loading: false,
           data: response.data,

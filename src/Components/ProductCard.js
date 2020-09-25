@@ -14,7 +14,7 @@ function ProductCard(props) {
       >{`24h: % ${props.product.usd_24h_change}`}</div>
       <div
         className={'bg-blue-500'}
-      >{`Mkt Cap ${props.product.usd_market_cap}`}</div>
+      >{`Mkt Cap: ${props.product.usd_market_cap}`}</div>
     </div>
   );
 }

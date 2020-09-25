@@ -4,7 +4,7 @@ import Navigation from './Navigation';
 function Header() {
   return (
     <header className="border-b font- p-3 flex justify-between items-center">
-      APP Name
+      CloudNalu
       <span className="">
         <Navigation />
       </span>
